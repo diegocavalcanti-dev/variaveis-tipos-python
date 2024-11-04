@@ -118,3 +118,11 @@ print(tkt_23)
 tkt = (tkt_19 + tkt_20 + tkt_23) / 3
 print(tkt)
 
+
+
+
+verdadeiro = True
+print(verdadeiro)
+
+falso = False
+print(falso)
