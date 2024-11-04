@@ -120,9 +120,102 @@ print(tkt)
 
 
 
+# Boleanos
+
+# True (verdadeiro);
+# False (falso).
 
 verdadeiro = True
 print(verdadeiro)
 
 falso = False
 print(falso)
+
+# São resultados de comparações lógicas. Os operadores de comparação lógica são:
+
+# > (maior);
+# < (menor);
+# == (igual);
+# >= (maior ou igual);
+# <= (menor ou igual);
+# != (diferente).
+
+
+saldo_em_conta = 200
+valor_do_saque = 100
+
+pode_executar_saque = valor_do_saque <= saldo_em_conta
+print(pode_executar_saque)
+
+
+
+codigo_de_seguranca = '852'
+codigo_de_seguranca_cadastro = '010'
+
+pode_efetuar_pagamento = codigo_de_seguranca == codigo_de_seguranca_cadastro
+print(pode_efetuar_pagamento)
+
+# ---------
+
+
+# Operações
+# As operações de variáveis booleanas são:
+
+# | (operador ou)
+# & (operador e)
+# not (operador não)
+
+# Tabela da verdade do operador | (ou).
+
+print(True | True)
+print(True | False)
+print(False | False)
+print(False | True)
+
+#  Tabela da verdade do operador & (e).
+
+print(True & True)
+print(True & False)
+print(False & False)
+print(False & True)
+
+# Tabela da verdade do operador not (não).
+
+print(not True)
+print(not False)
+
+
+# -------------------------------------------
+
+#  Conversão
+# Podemos converter tipos numéricos e strings para booleanos através do método nativo bool:
+
+idade = 19
+tipo_sangue = 'O-'
+filhos = 0
+telefone_fixo = None
+telefone_fixo = ''
+
+print(bool(idade))
+print(bool(tipo_sangue))
+print(bool(filhos))
+print(bool(telefone_fixo))
+print(bool(telefone_fixo))
+
+
+# -----------------------
+
+
+usuario = 'andre.perez'
+senha = 'andre123'
+
+usuario_cadastro = 'andre.perez'
+senha_cadastro = 'andre321'
+
+
+# ----
+usuario_igual = usuario == usuario_cadastro
+senha_igual = senha == senha_cadastro
+
+print(usuario_igual)
+print(senha_igual)
